@@ -69,9 +69,9 @@ int main()
 	char answ = 'y';
 	while (answ != 'n')
 	{
-		cout << "\nWrite from 0 to 255: ";
+		cout << "\nWrite from 0 to 31: ";
 		cin >> var1;
-		cout << "\nWrite from 0 to 255: ";
+		cout << "\nWrite from 0 to 31: ";
 		cin >> var2;
 		for (int j = input_size - 1; j >= 0; j--)
 		{
